@@ -1,7 +1,42 @@
-{% extends "base.html" %}
-{% block title %}Tuhin{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Tuhin" />
+    <meta property="og:description" content="Tuhin Majumder's Portfolio" />
+    <meta property="og:url" content="/../static/assets/img/tuhin-profile1.jpeg" />
+    <meta property="og:image" content="/../static/assets/img/tuhin-profile1.jpeg" />
 
-{% block content %}
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title></title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="/../static/assets/img/favicon.ico" rel="icon">
+    <link href="/../static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/../static/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/../static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/../static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/../static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/../static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="/../static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/../static/assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
@@ -10,7 +45,35 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-        {% include 'nav.html' %}
+        <nav id="navbar" class="navbar order-last order-lg-0">
+    <ul>
+        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+        <li><a class="nav-link scrollto" href="#about">About</a></li>
+        <li><a class="nav-link scrollto" href="#experience">Experience</a></li>
+        <li><a class="nav-link scrollto" href="#skill">Skill</a></li>
+        <li><a class="nav-link scrollto" href="#education">Education</a></li>
+        <!--          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>-->
+        <!--          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>-->
+        <!--            <ul>-->
+        <!--              <li><a href="#">Drop Down 1</a></li>-->
+        <!--              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>-->
+        <!--                <ul>-->
+        <!--                  <li><a href="#">Deep Drop Down 1</a></li>-->
+        <!--                  <li><a href="#">Deep Drop Down 2</a></li>-->
+        <!--                  <li><a href="#">Deep Drop Down 3</a></li>-->
+        <!--                  <li><a href="#">Deep Drop Down 4</a></li>-->
+        <!--                  <li><a href="#">Deep Drop Down 5</a></li>-->
+        <!--                </ul>-->
+        <!--              </li>-->
+        <!--              <li><a href="#">Drop Down 2</a></li>-->
+        <!--              <li><a href="#">Drop Down 3</a></li>-->
+        <!--              <li><a href="#">Drop Down 4</a></li>-->
+        <!--            </ul>-->
+        <!--          </li>-->
+        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
 
         <a href="#about" class="get-started-btn scrollto">Get Started</a>
 
@@ -69,7 +132,7 @@
 
             <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                    <img src="{{ url_for('static', filename='assets/img/tuhin-profile1.jpeg') }}" class="img-fluid"
+                    <img src="/../static/assets/img/tuhin-profile1.jpeg" class="img-fluid"
                          alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right"
@@ -114,7 +177,7 @@
                      data-aos-delay="100">
                     <div class="icon-box">
                         <div class="icon"><img class="inst-ind"
-                                               src="{{ url_for('static', filename='assets/img/inst/pwc.png') }}">
+                                               src="/../static/assets/img/inst/pwc.png">
                         </div>
                         <h4><a href="">Consultant (Mar 2023 - Present)</a></h4>
                         <p>•Client: leading Indian manufacturer of chemicals and pharmaceuticals
@@ -128,7 +191,7 @@
                      data-aos-delay="200">
                     <div class="icon-box">
                         <div class="icon"><img class="inst-ind"
-                                               src="{{ url_for('static', filename='assets/img/inst/cognizant.png') }}">
+                                               src="/../static/assets/img/inst/cognizant.png">
                         </div>
                         <h4><a href="">Associate (Sep 2022 - Mar 2023)</a></h4>
                         <p>•Client: US Major healthcare and Insurance clients
@@ -154,7 +217,7 @@
                      data-aos-delay="100">
                     <div class="icon-box">
                         <div class="icon"><img class="inst-ind"
-                                               src="{{ url_for('static', filename='assets/img/inst/ju.png') }}">
+                                               src="/../static/assets/img/inst/ju.png">
                         </div>
                         <h4><a href="">Research and Development Intern (Jun 2018 - Dec 2018)</a></h4>
                         <p>
@@ -176,31 +239,187 @@
 
 
     <!-- ======= Portfolio Section ======= -->
-{% include 'skill.html' %}
+    <section id="skill" class="portfolio">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Skill</h2>
+                <p>Check My Skill</p>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-lang">Language</li>
+                        <li data-filter=".filter-cloud">ETL and Cloud</li>
+                        <li data-filter=".filter-frame">Framework</li>
+                        <li data-filter=".filter-os">OS</li>
+                        <li data-filter=".filter-other">Others</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-cloud">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/aws.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-lang">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/python.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-cloud">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/informatica.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-lang">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/mysql.jpeg" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-lang">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/html.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-cloud">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/rds.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-cloud">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/ec2.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-frame">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/django.jpg" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-frame">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/flask.jpg" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-cloud">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/lambda.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-other">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/oracle.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div><div class="col-lg-2 col-md-2 col-3 portfolio-item filter-other">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/servicenow.jpeg" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-lang">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/unix.jpg" class="img-fluid"
+                             alt="">
+                    </div>
+                </div><div class="col-lg-2 col-md-2 col-3 portfolio-item filter-lang">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/css.jpg" class="img-fluid"
+                             alt="">
+                    </div>
+                </div><div class="col-lg-2 col-md-2 col-3 portfolio-item filter-other">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/jenkins.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-lang">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/js.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-cloud">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/s3.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-os">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/win.webp" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-os">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/macos.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-lang">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/c++.png" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-3 portfolio-item filter-lang">
+                    <div class="portfolio-wrap">
+                        <img src="/../static/assets/img/skills/c.jpeg" class="img-fluid"
+                             alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Section -->
 
     <!-- ======= Features Section ======= -->
     <section id="education" class="features">
         <div class="container" data-aos="fade-up">
             <h3>My Education</h3><br>
             <div class="row">
-                <div class="image col-lg-6 col-0"
-                     style="background-image: url('{{ url_for('static', filename='assets/img/grad.avif') }}');"
+                <div class="image col-lg-6"
+                     style="background-image: url('/../static/assets/img/grad.avif');"
                      data-aos="fade-right"></div>
-                <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-delay="100">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
                     <!--                    <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">-->
-                    <!--                        <img class="inst" src="{{ url_for('static', filename='assets/img/inst/dpu.png') }}">-->
+                    <!--                        <img class="inst" src="/../static/assets/img/inst/dpu.png">-->
                     <!--                        <h4>D Y Patil, Pune</h4>-->
                     <!--                        <p>2023-Present</p>-->
                     <!--                        <p>MBA, IT Management (DPU)</p>-->
                     <!--                    </div>-->
                     <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-                        <img class="inst" src="{{ url_for('static', filename='assets/img/inst/hitk.png') }}">
+                        <img class="inst" src="/../static/assets/img/inst/hitk.png">
                         <h4>Heritage Institute of Technology, Kolkata</h4>
                         <p>2016-2020</p>
                         <p>Bachelor in Technology, Electronics and Communication Engineering (MAKAUT)</p>
                     </div>
                     <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-                        <img class="inst" src="{{ url_for('static', filename='assets/img/inst/Sccs.png') }}">
+                        <img class="inst" src="/../static/assets/img/inst/Sccs.png">
                         <h4>Scottish Church Collegiate School, Kolkata</h4>
                         <p>2014-2016</p>
                         <p>X (WBBSE), XII - Science (WBCHSE)</p>
@@ -388,4 +607,17 @@
 
 
 </script>
-{% endblock %}
+
+
+<script src="/../static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="/../static/assets/vendor/aos/aos.js"></script>
+<script src="/../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/../static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/../static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="/../static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!--<script src="/../static/assets/vendor/php-email-form/validate.js"></script>-->
+
+<!-- Template Main JS File -->
+<script src="/../static/assets/js/main.js"></script>
+</body>
+</html>

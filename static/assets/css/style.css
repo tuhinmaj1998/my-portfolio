@@ -406,7 +406,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://tuhinmaj1998.github.io/my-portfolio/static/assets/img/hero-bg.jpg") top center;
+  background: url("https://tuhinmajumder.com/my-portfolio/static/assets/img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -744,7 +744,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("https://tuhinmaj1998.github.io/my-portfolio/static/assets/img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("https://tuhinmajumder.com/static/assets/img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1028,7 +1028,7 @@ section {
 }
 
 .counts .image {
-  background: url("https://tuhinmaj1998.github.io/my-portfolio/static/assets/img/counts-img.jpg") center center no-repeat;
+  background: url("https://tuhinmajumder.com/static/assets/img/counts-img.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -1054,7 +1054,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("https://tuhinmaj1998.github.io/my-portfolio/static/assets/img/testimonials-bg.jpg") no-repeat;
+  background: url("https://tuhinmajumder.com/static/assets/img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
